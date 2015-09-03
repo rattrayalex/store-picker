@@ -14,3 +14,28 @@ body {
   background-color: white;
 }
 
+.autocomplete {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  background: rgba(200,200,250,.2);
+}
+
+.autocomplete:focus {
+  background: rgba(200,200,250,.3);
+}
+
+.suggestions {
+  border: 1px solid #eee;
+  border-bottom: none;
+}
+
+.suggestions:first-child {
+  border-top: 1px solid #eee;
+}
+
+.suggestion {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}

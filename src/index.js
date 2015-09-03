@@ -1,4 +1,5 @@
 import React from 'react'
+import StorePicker from './StorePicker'
 
 import './base.css'
 
@@ -9,11 +10,11 @@ class App extends React.Component {
       <div>
         <center>
           <h1>
-            Store Picker
+            Select your Store
           </h1>
         </center>
         <div className='site-wrapper'>
-          Hello, World!
+          <StorePicker />
         </div>
       </div>
     )
