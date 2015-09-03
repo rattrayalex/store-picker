@@ -8,14 +8,17 @@ class App extends React.Component {
   render() {
     return (
       <div>
+
         <center>
           <h1>
             Select your Store
           </h1>
         </center>
+
         <div className='site-wrapper'>
           <StorePicker />
         </div>
+
       </div>
     )
   }

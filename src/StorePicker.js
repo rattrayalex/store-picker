@@ -12,12 +12,16 @@ export default class StorePicker extends React.Component {
     }
   }
   fetchChoices() {
+    //
+    // TODO: use API version when CORS is fixed
+    //
     // TODO: ensure responses returned out of order
     // don't cause problems
     // getSuggestions(this.state.text).then( (suggestions) => {
     //   console.log(suggestions)
     //   this.setState({ suggestions })
     // })
+
     let suggestions = getMockedSuggestions(this.state.text)
     this.setState({ suggestions })
   }
@@ -31,17 +35,20 @@ export default class StorePicker extends React.Component {
   render() {
     return (
       <div>
+
         <input type='text'
           className='autocomplete'
           placeholder='Search for Your Store'
           onChange={this.handleChange.bind(this)}
           value={this.state.text}
         />
+
         <div className='suggestions'>
           {this.state.suggestions.map( (s) =>
             <Suggestion key={s.id} suggestion={s} />
           )}
         </div>
+
       </div>
     )
   }
