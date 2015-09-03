@@ -6,6 +6,7 @@ This was an assignment for a job interview.
 ## build/test
 
 ```
+npm install -g webpack
 make
 ```
 
