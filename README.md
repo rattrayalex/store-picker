@@ -1,7 +1,7 @@
 
 # Store Picker
 
-This was an assignment for a job interview. 
+This was a small assignment for a job interview. A demo is available at [store-picker.alexrattray.com](http://store-picker.alexrattray.com).
 
 ## build/test
 
