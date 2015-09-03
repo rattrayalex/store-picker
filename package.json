@@ -1,0 +1,19 @@
+{
+  "name": "store-picker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rattrayalex/store-picker"
+  },
+  "author": "Alex Rattray <rattray.alex@gmail.com> (http://alexrattray.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rattrayalex/store-picker/issues"
+  },
+  "homepage": "https://github.com/rattrayalex/store-picker"
+}
